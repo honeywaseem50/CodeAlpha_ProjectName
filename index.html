@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Image Gallery</h1>
+
+    <!-- Category Buttons -->
+    <div class="filter-buttons">
+
+        <button class="filter-btn active" data-category="all">
+            All Jewellery
+        </button>
+
+        <button class="filter-btn" data-category="daily">
+            Daily Wear
+        </button>
+
+        <button class="filter-btn" data-category="fashion">
+            Fashion
+        </button>
+
+        <button class="filter-btn" data-category="watch">
+            Watch
+        </button>
+
+    </div>
+
+
+    <!-- Gallery -->
+    <div class="gallery-container">
+
+        <!-- Image 1 -->
+        <div class="gallery-item" data-category="fashion">
+            <img src="images/image1.jpg.png" alt="Small Golden Stud">
+            <h3>Small Golden Stud</h3>
+        </div>
+
+
+        <!-- Image 2 -->
+        <div class="gallery-item" data-category="daily">
+            <img src="images/image2.jpg.png" alt="Silver Bow Stud">
+            <h3>Silver Bow Stud</h3>
+        </div>
+
+
+        <!-- Image 3 -->
+        <div class="gallery-item" data-category="daily">
+            <img src="images/image3.jpg.png" alt="Silver Hoops">
+            <h3>Silver Hoops</h3>
+        </div>
+
+
+        <!-- Image 4 -->
+        <div class="gallery-item" data-category="fashion">
+            <img src="images/image4.jpg.png" alt="Multi Jumky">
+            <h3>Multi Jumky</h3>
+        </div>
+
+
+        <!-- Image 5 -->
+        <div class="gallery-item" data-category="fashion">
+            <img src="images/image5.jpg.png" alt="Flower Handcuff">
+            <h3>Flower Handcuff</h3>
+        </div>
+
+
+        <!-- Image 6 -->
+        <div class="gallery-item" data-category="fashion">
+            <img src="images/image6.jpg.png" alt="Butterfly Pendant">
+            <h3>Butterfly Pendant</h3>
+        </div>
+
+
+        <!-- Image 7 -->
+        <div class="gallery-item" data-category="daily">
+            <img src="images/image7.jpg.png" alt="Minimal Bracelet">
+            <h3>Minimal Bracelet</h3>
+        </div>
+
+
+        <!-- Image 8 -->
+        <div class="gallery-item" data-category="watch">
+            <img src="images/image8.jpg.png" alt="Stone Bracelet Watch">
+            <h3>Stone Bracelet Watch</h3>
+        </div>
+
+    </div>
+
+
+    <!-- Navigation Buttons -->
+    <div class="navigation">
+
+        <button id="prevBtn">
+            Previous
+        </button>
+
+        <button id="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+
+        <span class="close" id="closeBtn">
+            &times;
+        </span>
+
+        <button class="lightbox-prev" id="lightboxPrev">
+            &#10094;
+        </button>
+
+        <img id="lightboxImage" src="" alt="Large Image">
+
+        <button class="lightbox-next" id="lightboxNext">
+            &#10095;
+        </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
