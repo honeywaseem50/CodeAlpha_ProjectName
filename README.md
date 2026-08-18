@@ -38,7 +38,7 @@ Through this project, I practiced:
 
 This project was completed as part of my **Frontend Development Internship at CodeAlpha**.
 
-## 🔗 Project
+## 🔗 Project.
 
 GitHub Repository: https://github.com/honeywaseem50/CodeAlpha_ProjectName
 
