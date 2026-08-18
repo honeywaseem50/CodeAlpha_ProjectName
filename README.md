@@ -44,6 +44,3 @@ GitHub Repository: https://github.com/honeywaseem50/CodeAlpha_ProjectName
 
 **Hania Waseem Khan**
 
----
-
-Made with ❤️ by Hania Waseem
